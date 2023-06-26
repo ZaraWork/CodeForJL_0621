@@ -1,0 +1,242 @@
+10
+
+dir
+78023
+http://172.18.60.14:2501/svn/newsdd/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle
+http://172.18.60.14:2501/svn/newsdd
+
+
+
+2021-08-06T00:17:30.936074Z
+77892
+020914
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aa90232a-e3e3-0548-9853-a5451eabe531
+
+LTN.CS.SCMBussiness
+dir
+
+LTN.CS.SCMHardSDK
+dir
+
+LTN.CS.Base.BusinessService
+dir
+
+LTN.CS.SCMEntities
+dir
+
+LTN.CS.Resource
+dir
+
+LTN.CS.Base.BusinessDao
+dir
+
+LTN.CS.Core
+dir
+
+LTN.CS.Base.ServiceInterface
+dir
+
+JH4N.sln
+file
+
+
+
+
+2019-11-11T04:27:20.127984Z
+dd6fe8834c22bd7f8934e8d2109d56ce
+2019-11-11T04:57:00.283672Z
+45006
+020914
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24637
+
+LTN.CS.Entrance
+dir
+
+IBatisNet.DataMapper
+dir
+
+Packages.dgml
+file
+
+
+
+
+2019-11-07T11:25:28.931107Z
+ae13087e9181ff546293f1642aa4143b
+2019-10-22T06:45:47.157305Z
+43762
+020914
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3875
+
+measure_test
+file
+
+
+
+
+2019-11-07T11:25:28.442387Z
+d41d8cd98f00b204e9800998ecf8427e
+2019-10-22T06:45:47.157305Z
+43762
+020914
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+LTN.CS.Service
+dir
+
+Castle.DynamicProxy
+dir
+
+LTN.CS.SCMService
+dir
+
+.vs
+dir
+
+AESTool
+dir
+
+LTN.CS.SCMDao
+dir
+
+LTN.CS.SCMForm
+dir
+
+lib
+dir
+
+LTN.CS.BaseEntity
+dir
+
+LTN.CS.Base.BaseForm
+dir
+
+JH4N.suo
+file
+
+
+
+
+2021-04-28T05:52:08.207000Z
+f937d9b317b9afc82cac5f1e1044f73c
+2021-05-19T06:41:29.169838Z
+75249
+020914
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1440256
+
+IBatisNet.Common.Logging.Log4Net
+dir
+
+IBatisNet.Common
+dir
+
+LTN.CS.Base
+dir
+
+BeltMoniterControlLibrary
+dir
+
+LTN.CS.SCMCustomUI
+dir
+
+packages
+dir
+

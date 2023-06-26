@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="PM_Water_Guage_Info" xmlns="http://ibatis.apache.org/mapping"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+
+  <resultMaps>
+    <resultMap id="SelectPM_Water_Guage_InfoAllResult" class="PM_Water_Guage_Info">
+      <result property="I_INTID" column="I_INTID" />
+      <result property="C_HANGCI_NO" column="C_HANGCI_NO" />
+      <result property="C_NET_WEIGHT" column="C_NET_WEIGHT" />
+      <result property="C_GOODS_NAME" column="C_GOODS_NAME" />
+      <result property="C_FORWARDING_UNIT" column="C_FORWARDING_UNIT" />
+      <result property="C_LOAD_NAME" column="C_LOAD_NAME" />
+      <result property="C_RECEIVING_UNIT" column="C_RECEIVING_UNIT" />
+      <result property="C_UNLOAD_NAME" column="C_UNLOAD_NAME" />
+      <result property="C_VESSEL_NAME" column="C_VESSEL_NAME" />
+      <result property="C_CONSI_NO" column="C_CONSI_NO" />
+      <result property="C_OPERATOR" column="C_OPERATOR" />
+      <result property="C_REV_TIME" column="C_REV_TIME" />
+      <result property="C_ZZSHANGCI_NO" column="C_ZZSHANGCI_NO" />
+      <result property="C_REMARK" column="C_REMARK" />
+      <result property="C_ZRSV06" column="C_ZRSV06" />
+      <result property="C_ZRSV07" column="C_ZRSV07" />
+      <result property="C_ZRSV08" column="C_ZRSV08" />
+      <result property="C_ZRSV09" column="C_ZRSV09" />
+      <result property="C_ZRSV10" column="C_ZRSV10" />
+      <result property="C_BERTH_DT" column="C_BERTH_DT" />
+      <result property="C_CONTRACT_NO" column="C_CONTRACT_NO" />     
+      <result property="C_DATAFLAG" column="C_DATAFLAG"/>
+    </resultMap>
+
+   
+  </resultMaps>
+  <!--statement配置-->
+  <statements>
+    <select id="selectPM_Water_Guage_InfoByHt"  resultMap="SelectPM_Water_Guage_InfoAllResult" parameterClass="Hashtable">
+      select
+      a.I_INTID
+      ,a.C_HANGCI_NO
+      ,a.C_NET_WEIGHT
+      ,a.C_GOODS_NAME
+      ,a.C_FORWARDING_UNIT
+      ,a.C_LOAD_NAME
+      ,a.C_RECEIVING_UNIT
+      ,a.C_UNLOAD_NAME
+      ,a.C_VESSEL_NAME
+      ,a.C_CONSI_NO
+      ,a.C_OPERATOR
+      ,a.C_REV_TIME
+      ,a.C_ZZSHANGCI_NO
+      ,a.C_REMARK
+      ,a.C_ZRSV06
+      ,a.C_ZRSV07
+      ,a.C_ZRSV08
+      ,a.C_ZRSV09
+      ,a.C_ZRSV10
+      ,a.C_BERTH_DT
+      ,a.C_CONTRACT_NO
+      ,a.C_DATAFLAG
+      from pm_water_gauge_Info a
+      where a.C_DataFlag = 1
+      <isNotEmpty prepend="AND" property="materialName">
+        a.C_GOODS_NAME=#materialName#
+      </isNotEmpty>
+      <isNotEmpty prepend="AND" property="shipName">
+        a.C_VESSEL_NAME=#shipName#
+      </isNotEmpty>
+      <isNotEmpty prepend="AND" property="contractNo">
+        a.C_CONTRACT_NO=#contractNo#
+      </isNotEmpty>
+      <isNotEmpty prepend="AND" property="arriveTime">
+        a.C_BERTH_DT > #arriveTime#
+      </isNotEmpty>
+      <isNotEmpty prepend="AND" property="hangCiNo">
+        a.C_HANGCI_NO=#hangCiNo#
+      </isNotEmpty>            
+      order by a.I_IntId desc
+    </select>       
+  </statements>
+</sqlMap>

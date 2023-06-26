@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="PM_DataComparisonForBeltAndSupplies" xmlns="http://ibatis.apache.org/mapping"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <resultMaps>
+    <!--
+    <resultMap id="SelectPM_DataComparisonForBeltAndSuppliesResultMap" class="PM_DataComparisonForBeltAndSupplies">
+      <result property="shipName" column ="shipName"/>
+      <result property="contractNo" column ="contractNo"/>
+      <result property="materialName" column ="materialName"/>
+      <result property="voyageNo" column ="voyageNo"/>
+      <result property="plan_id" column ="plan_id"/>
+      <result property="waterGuage_weight" column ="waterGuage_weight"/>
+      <result property="wharf_beltWeight" column ="wharf_beltWeight"/>
+      <result property="beltWeight" column ="beltWeight"/>
+      <result property="suppliesWeight" column ="suppliesWeight"/>
+      <result property="shipArriveTime" column ="shipArriveTime"/>
+    </resultMap>
+    <resultMap id="SelectBeltDataResultMap" class="BeltData">     
+      <result property="c_reserve3" column ="c_reserve3"/>      
+      <result property="c_materialName" column ="c_materialName"/>
+    </resultMap>
+-->
+    <resultMap id="QueryPM_Bill_BeltByHashtableResultMap" class="PM_Bill_Belt">
+      <result property="C_Planstatus" column="C_PLANSTATUS" />
+      <result property="C_Planno" column="C_PLANNO" />
+      <result property="C_Materialno" column="C_MATERIALNO" />
+      <result property="C_Materialname" column="C_MATERIALNAME" />
+      <result property="C_Fromdeptno" column="C_FROMDEPTNO" />
+      <result property="C_Fromdeptname" column="C_FROMDEPTNAME" />
+      <result property="C_Fromstoreno" column="C_FROMSTORENO" />
+      <result property="C_Fromstorename" column="C_FROMSTORENAME" />
+      <result property="C_Todeptno" column="C_TODEPTNO" />
+      <result property="C_Todeptname" column="C_TODEPTNAME" />
+      <result property="C_Tostoreno" column="C_TOSTORENO" />
+      <result property="C_Tostorename" column="C_TOSTORENAME" />
+      <result property="C_Beltno" column="C_BELTNO" />
+      <result property="C_Beltname" column="C_BELTNAME" />
+      <result property="C_Shipno" column="C_SHIPNO" />
+      <result property="C_Contractno" column="C_CONTRACTNO" />
+      <result property="C_Voyageno" column="C_VOYAGENO" />
+      <result property="C_Starttime" column="C_STARTTIME" />
+      <result property="C_Endtime" column="C_ENDTIME" />
+      <result property="C_Createtime" column="C_CREATETIME" />
+      <result property="C_Createname" column="C_CREATENAME" />
+      <result property="C_Remark" column="C_REMARK" />
+      <result property="C_Reserve1" column="C_RESERVE1" />
+      <result property="C_Reserve2" column="C_RESERVE2" />
+      <result property="C_Reserve3" column="C_RESERVE3" />
+      <result property="I_Reserve1" column="I_RESERVE1" />
+      <result property="I_Reserve2" column="I_RESERVE2" />
+      <result property="I_Reserve3" column="I_RESERVE3" />
+      <result property="C_Wgtlistno" column="C_WGTLISTNO" />
+      <result property="N_Startwgt" column="N_STARTWGT" />
+      <result property="N_Endwgt" column="N_ENDWGT" />
+      <result property="N_Netwgt" column="N_NETWGT" />
+      <result property="C_Measurestarttime" column="C_MEASURESTARTTIME" />
+      <result property="C_Measureendtime" column="C_MEASUREENDTIME" />
+      <result property="C_Measureman" column="C_MEASUREMAN" />
+      <result property="C_Updateusername" column="C_UPDATEUSERNAME" />
+      <result property="C_Updatetime" column="C_UPDATETIME" />
+      <result property="C_Billcreatetime" column="C_BILLCREATETIME" />
+      <result property="C_Billcreateusername" column="C_BILLCREATEUSERNAME" />
+      <result property="I_Intid" column="I_INTID" />
+      <result property="C_Uploadstatus" column="C_UPLOADSTATUS" />
+      <result property="I_BillStatus" column="I_BillStatus" />
+      <result property="C_RESERVE4" column="C_RESERVE4"/>
+      <result property="C_RESERVE5" column="C_RESERVE5"/>
+      <result property="C_RESERVE6" column="C_RESERVE6"/>
+      <result property="C_RESERVE7" column="C_RESERVE7"/>
+      <result property="C_RESERVE8" column="C_RESERVE8"/>
+    </resultMap>
+    <resultMap id="SelectPM_Water_Guage_InfoResult" class="PM_Water_Guage_Info">
+      <result property="I_INTID" column="I_INTID" />
+      <result property="C_HANGCI_NO" column="C_HANGCI_NO" />
+      <result property="C_NET_WEIGHT" column="C_NET_WEIGHT" />
+      <result property="C_GOODS_NAME" column="C_GOODS_NAME" />
+      <result property="C_FORWARDING_UNIT" column="C_FORWARDING_UNIT" />
+      <result property="C_LOAD_NAME" column="C_LOAD_NAME" />
+      <result property="C_RECEIVING_UNIT" column="C_RECEIVING_UNIT" />
+      <result property="C_UNLOAD_NAME" column="C_UNLOAD_NAME" />
+      <result property="C_VESSEL_NAME" column="C_VESSEL_NAME" />
+      <result property="C_CONSI_NO" column="C_CONSI_NO" />
+      <result property="C_OPERATOR" column="C_OPERATOR" />
+      <result property="C_REV_TIME" column="C_REV_TIME" />
+      <result property="C_ZZSHANGCI_NO" column="C_ZZSHANGCI_NO" />
+      <result property="C_REMARK" column="C_REMARK" />
+      <result property="C_ZRSV06" column="C_ZRSV06" />
+      <result property="C_ZRSV07" column="C_ZRSV07" />
+      <result property="C_ZRSV08" column="C_ZRSV08" />
+      <result property="C_ZRSV09" column="C_ZRSV09" />
+      <result property="C_ZRSV10" column="C_ZRSV10" />
+      <result property="C_BERTH_DT" column="C_BERTH_DT" />
+      <result property="C_CONTRACT_NO" column="C_CONTRACT_NO" />
+      <result property="C_DATAFLAG" column="C_DATAFLAG"/>
+    </resultMap>
+   
+  </resultMaps>
+  <statements>
+
+    <select id="SelectContractNoByShipNameAndMaterial" parameterClass="Hashtable">
+      select unique c_contractno from pm_bill_belt where
+      c_shipno = #shipName# and c_beltno like 'A%' and i_reserve1 = 0
+      <isNotEmpty prepend="AND" property="materialName">
+        c_materialName like '%$materialName$%'
+      </isNotEmpty>
+      <isNotEmpty prepend="AND" property="contractNo">
+        C_Contractno like '%$contractNo$%'
+      </isNotEmpty>
+      <isNotEmpty prepend="AND" property="arriveDate">
+        C_Starttime >'$arriveDate$'
+      </isNotEmpty>
+    </select>
+    
+    <select id="SelectMTBeltWeightByContractNo" parameterClass="HashTable">
+
+      select sum(n_netwgt) from pm_bill_belt where c_contractno = #contractNo# and c_reserve1 = #shipName# and i_reserve1 = 0 and c_beltno like 'A%' and c_uploadstatus = 'Y' and c_planstatus != 'D' and c_fromdeptName is not null
+    </select>
+
+    <select id="SelectBeltWeightByContractNo" parameterClass="string">
+
+      select sum(n_netwgt) from pm_bill_belt where i_reserve1 = 0 and c_contractno = #contractNo# and c_beltno not like 'A%' and c_uploadstatus = 'Y' and c_planstatus != 'D' and C_TODEPTNAME like '%装车楼%'
+    </select>
+    <select id="SelectBeltDataByContractNo" parameterClass="string" resultMap="QueryPM_Bill_BeltByHashtableResultMap">
+      select
+      C_Planstatus
+      ,C_Planno
+      ,C_Materialno
+      ,C_Materialname
+      ,C_Fromdeptno
+      ,C_Fromdeptname
+      ,C_Fromstoreno
+      ,C_Fromstorename
+      ,C_Todeptno
+      ,C_Todeptname
+      ,C_Tostoreno
+      ,C_Tostorename
+      ,C_Beltno
+      ,C_Beltname
+      ,C_Shipno
+      ,C_Contractno
+      ,C_Voyageno
+      ,C_Starttime
+      ,C_Endtime
+      ,C_Createtime
+      ,C_Createname
+      ,C_Remark
+      ,C_Reserve1
+      ,C_Reserve2
+      ,C_Reserve3
+      ,I_Reserve1
+      ,I_Reserve2
+      ,I_Reserve3
+      ,C_Wgtlistno
+      ,N_Startwgt
+      ,N_Endwgt
+      ,N_Netwgt
+      ,C_Measurestarttime
+      ,C_Measureendtime
+      ,C_Measureman
+      ,C_Updateusername
+      ,C_Updatetime
+      ,C_Billcreatetime
+      ,C_Billcreateusername
+      ,I_Intid
+      ,C_Uploadstatus
+      ,I_BillStatus
+      ,C_RESERVE4
+      ,C_RESERVE5
+      ,C_RESERVE6
+      ,C_RESERVE7
+      ,C_RESERVE8
+
+      from pm_bill_belt where i_reserve1 = 1 and c_contractno = #contractNo# and c_beltno not like 'A%' and rownum = 1
+
+    </select>
+    <select id="SelectSuppliesWeightByPlanId" parameterClass="string" >
+        select sum(n_netwgt) from pm_pond_bill_supplies where c_plan_id = #plan_id# and c_uploadstatus = 'Y' and i_billstatus = 2 and i_dataflag = 1 and c_planstatus != 'D'
+    </select>
+    <!--
+    <select id="SelectWaterGuageInfoByContractNo" parameterClass="string">
+      select c_net_weight from pm_water_guage_info where c_contractno = #contractNo#
+    </select>
+    -->
+    <select id="SelectWaterGuageInfoByContractNo"  resultMap="SelectPM_Water_Guage_InfoResult" parameterClass="Hashtable">
+      select
+      a.I_INTID
+      ,a.C_HANGCI_NO
+      ,a.C_NET_WEIGHT
+      ,a.C_GOODS_NAME
+      ,a.C_FORWARDING_UNIT
+      ,a.C_LOAD_NAME
+      ,a.C_RECEIVING_UNIT
+      ,a.C_UNLOAD_NAME
+      ,a.C_VESSEL_NAME
+      ,a.C_CONSI_NO
+      ,a.C_OPERATOR
+      ,a.C_REV_TIME
+      ,a.C_ZZSHANGCI_NO
+      ,a.C_REMARK
+      ,a.C_ZRSV06
+      ,a.C_ZRSV07
+      ,a.C_ZRSV08
+      ,a.C_ZRSV09
+      ,a.C_ZRSV10
+      ,a.C_BERTH_DT
+      ,a.C_CONTRACT_NO
+      ,a.C_DATAFLAG
+      from pm_water_gauge_Info a
+      where a.C_DataFlag = 1
+      and a.C_CONTRACT_NO=#contractNo#
+      and a.C_VESSEL_NAME=#shipName#
+      order by a.I_IntId desc
+    </select>
+    
+  
+  </statements>
+</sqlMap>

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 372
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects
+END
+AbstractFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 391
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/AbstractFactory.cs
+END
+ActivatorObjectFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 398
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/ActivatorObjectFactory.cs
+END
+EmitObjectFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 393
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/EmitObjectFactory.cs
+END
+FactoryBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 390
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/FactoryBuilder.cs
+END
+ObjectFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 389
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/ObjectFactory.cs
+END
+ObjectProbe.cs
+K 25
+svn:wc:ra_dav:version-url
+V 387
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/ObjectProbe.cs
+END
+IFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 384
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/IFactory.cs
+END
+DelegateFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 391
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/DelegateFactory.cs
+END
+BoxingOpCodes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 389
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/BoxingOpCodes.cs
+END
+ActivatorFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 392
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/ActivatorFactory.cs
+END
+ReflectionInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 390
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/ReflectionInfo.cs
+END
+IObjectFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 390
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/IObjectFactory.cs
+END
+DelegateObjectFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 397
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/DelegateObjectFactory.cs
+END
+FactoryLogAdapter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 393
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.Common/Utilities/Objects/FactoryLogAdapter.cs
+END

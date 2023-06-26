@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 384
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers
+END
+IsNotEmptyDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 410
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsNotEmptyDeSerializer.cs
+END
+IsLessThanDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 410
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsLessThanDeSerializer.cs
+END
+ResultPropertyDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 414
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/ResultPropertyDeSerializer.cs
+END
+IterateSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 405
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IterateSerializer.cs
+END
+CacheModelDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 410
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/CacheModelDeSerializer.cs
+END
+DynamicDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 407
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/DynamicDeSerializer.cs
+END
+ParameterPropertyDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 417
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/ParameterPropertyDeSerializer.cs
+END
+SubMapDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 406
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/SubMapDeSerializer.cs
+END
+IsNotNullDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 409
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsNotNullDeSerializer.cs
+END
+ArgumentPropertyDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 416
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/ArgumentPropertyDeSerializer.cs
+END
+IsLessEqualDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 411
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsLessEqualDeSerializer.cs
+END
+IsNotParameterPresentDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 421
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsNotParameterPresentDeSerializer.cs
+END
+SqlDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 403
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/SqlDeSerializer.cs
+END
+IsEqualDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 407
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsEqualDeSerializer.cs
+END
+InsertDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 406
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/InsertDeSerializer.cs
+END
+IsNullDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 406
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsNullDeSerializer.cs
+END
+DeSerializerFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 407
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/DeSerializerFactory.cs
+END
+DiscriminatorDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 413
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/DiscriminatorDeSerializer.cs
+END
+ResultMapDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 409
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/ResultMapDeSerializer.cs
+END
+IsParameterPresentDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 418
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsParameterPresentDeSerializer.cs
+END
+IsGreaterEqualDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 414
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsGreaterEqualDeSerializer.cs
+END
+ParameterMapDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 412
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/ParameterMapDeSerializer.cs
+END
+SelectDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 406
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/SelectDeSerializer.cs
+END
+TypeHandlerDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 411
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/TypeHandlerDeSerializer.cs
+END
+IsPropertyAvailableDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 419
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsPropertyAvailableDeSerializer.cs
+END
+UpdateDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 406
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/UpdateDeSerializer.cs
+END
+IsNotEqualDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 410
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsNotEqualDeSerializer.cs
+END
+ProcedureDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 409
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/ProcedureDeSerializer.cs
+END
+IDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 401
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IDeSerializer.cs
+END
+IsEmptyDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 407
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsEmptyDeSerializer.cs
+END
+TypeAliasDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 409
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/TypeAliasDeSerializer.cs
+END
+IsGreaterThanDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 413
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsGreaterThanDeSerializer.cs
+END
+IsNotPropertyAvailableDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 422
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/IsNotPropertyAvailableDeSerializer.cs
+END
+DeleteDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 406
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/DeleteDeSerializer.cs
+END
+StatementDeSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 409
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Serializers/StatementDeSerializer.cs
+END

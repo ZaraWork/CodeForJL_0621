@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 383
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements
+END
+IStatement.cs
+K 25
+svn:wc:ra_dav:version-url
+V 397
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/IStatement.cs
+END
+PreparedStatementFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 411
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/PreparedStatementFactory.cs
+END
+Select.cs
+K 25
+svn:wc:ra_dav:version-url
+V 393
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/Select.cs
+END
+Delete.cs
+K 25
+svn:wc:ra_dav:version-url
+V 393
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/Delete.cs
+END
+Update.cs
+K 25
+svn:wc:ra_dav:version-url
+V 393
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/Update.cs
+END
+Insert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 393
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/Insert.cs
+END
+Statement.cs
+K 25
+svn:wc:ra_dav:version-url
+V 396
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/Statement.cs
+END
+SqlGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 399
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/SqlGenerator.cs
+END
+PreparedStatement.cs
+K 25
+svn:wc:ra_dav:version-url
+V 404
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/PreparedStatement.cs
+END
+Procedure.cs
+K 25
+svn:wc:ra_dav:version-url
+V 396
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/Procedure.cs
+END
+SelectKey.cs
+K 25
+svn:wc:ra_dav:version-url
+V 396
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/SelectKey.cs
+END
+Generate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 395
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Statements/Generate.cs
+END

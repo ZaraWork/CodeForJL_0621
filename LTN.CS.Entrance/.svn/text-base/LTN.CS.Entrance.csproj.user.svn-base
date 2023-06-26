@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>E:\fcgjl\|E:\柳钢防城港基地远程计量管理系统\01.项目管理\11.发布\|ftp://10.211.48.151/SCMSiteInstall/|ftp://10.200.16.20/SCMSiteInstall/|ftp://172.16.130.199/SCMSiteInstall/</PublishUrlHistory>
+    <InstallUrlHistory>http://10.200.112.151:401/SCMSiteInstall/|http://10.211.48.151:401/SCMSiteInstall/|http://10.200.16.20:401/SCMSiteInstall/|http://172.16.130.199:401/SCMSiteInstall/|http://172.16.130.199:401/SCMPondInstall/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>zh-CN</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="PM_Pond_Bill_Cars_Print" xmlns="http://ibatis.apache.org/mapping"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <resultMaps>
+    <resultMap id="SelecPM_Pond_Bill_Cars_PrintAllResult" class="PM_Pond_Bill_Cars_Print">
+      <result property="IntId" column="I_IntId" />
+      <result property="WgtlistNo" column="C_WgtlistNo" />
+      <result property="PlanNo" column="C_PlanNo" />
+      <result property="CarName" column="C_CarName" />
+      <result property="MaterialName" column="C_MaterialName" />
+      <result property="Printer" column="C_Printer" />
+      <result property="PrintTime" column="D_PrintTime" />
+      <result property="PrintNum" column="I_PrintNum" />
+      <result property="ComputerIp" column="C_ComputerIp" />
+    </resultMap>
+  </resultMaps>
+  <statements>
+    <insert id="InsertPM_Pond_Bill_Cars_Print"  parameterClass="PM_Pond_Bill_Cars_Print" >
+      <selectKey property="IntId" type="pre" resultClass="int">
+        select SEQ_PM_POND_BILL_CARS_PRINT.nextval as IntId from dual
+      </selectKey>
+      insert into PM_POND_BILL_CARS_PRINT
+      (
+      I_INTID
+      ,C_WGTLISTNO
+      ,C_PLANNO
+      ,C_CarName
+      ,C_MATERIALNAME
+      ,C_PRINTER
+      ,D_PRINTTIME
+      ,I_PrintNum
+      ,C_ComputerIp
+      )values
+      (#IntId#,#WgtlistNo#,#PlanNo#,#CarName#,#MaterialName#,#Printer#,#PrintTime#,#PrintNum#,#ComputerIp#
+      )
+    </insert>
+
+    <select id="QueryPM_Pond_Bill_Cars_PrintByHashtable" resultMap="SelecPM_Pond_Bill_Cars_PrintAllResult"   parameterClass="HashTable">
+      select
+      I_INTID
+      ,C_WGTLISTNO
+      ,C_PLANNO
+      ,C_CarName
+      ,C_MATERIALNAME
+      ,C_PRINTER
+      ,D_PRINTTIME
+      ,I_PrintNum
+      ,C_ComputerIp
+      from PM_POND_BILL_CARS_PRINT a
+      where 1=1
+      <isNotEmpty prepend="AND" property="WgtlistNo">
+        a.C_WGTLISTNO=#WgtlistNo#
+      </isNotEmpty>
+      <isNotEmpty prepend="AND" property="PlanNo">
+        a.C_PLANNO=#PlanNo#
+      </isNotEmpty>
+      <isNotEmpty prepend="AND" property="CarName">
+        a.C_CarName=#CarName#
+      </isNotEmpty>
+      <isNotEmpty prepend="AND" property="MaterialName">
+        a.C_MATERIALNAME=#MaterialName#
+      </isNotEmpty>
+      <isNotEmpty prepend="AND" property="StartTime">
+        <isNotEmpty  property="EndTime">
+          a.D_PRINTTIME between #StartTime# and #EndTime#
+        </isNotEmpty>
+      </isNotEmpty>
+      order by D_PRINTTIME desc
+    </select>
+  </statements>
+</sqlMap>

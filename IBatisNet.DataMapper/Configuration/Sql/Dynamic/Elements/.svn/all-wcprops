@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 393
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements
+END
+IsNotEmpty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 407
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsNotEmpty.cs
+END
+IsLessThan.cs
+K 25
+svn:wc:ra_dav:version-url
+V 407
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsLessThan.cs
+END
+IsGreaterEqual.cs
+K 25
+svn:wc:ra_dav:version-url
+V 411
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsGreaterEqual.cs
+END
+IsParameterPresent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 415
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsParameterPresent.cs
+END
+IsPropertyAvailable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 416
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsPropertyAvailable.cs
+END
+IsNotEqual.cs
+K 25
+svn:wc:ra_dav:version-url
+V 407
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsNotEqual.cs
+END
+Dynamic.cs
+K 25
+svn:wc:ra_dav:version-url
+V 404
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/Dynamic.cs
+END
+IsNotNull.cs
+K 25
+svn:wc:ra_dav:version-url
+V 406
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsNotNull.cs
+END
+IsLessEqual.cs
+K 25
+svn:wc:ra_dav:version-url
+V 408
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsLessEqual.cs
+END
+IsEmpty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 404
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsEmpty.cs
+END
+SqlTag.cs
+K 25
+svn:wc:ra_dav:version-url
+V 403
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/SqlTag.cs
+END
+Iterate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 404
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/Iterate.cs
+END
+IsNotParameterPresent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 418
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsNotParameterPresent.cs
+END
+IsGreaterThan.cs
+K 25
+svn:wc:ra_dav:version-url
+V 410
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsGreaterThan.cs
+END
+IsNotPropertyAvailable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 419
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsNotPropertyAvailable.cs
+END
+IsEqual.cs
+K 25
+svn:wc:ra_dav:version-url
+V 404
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsEqual.cs
+END
+Conditional.cs
+K 25
+svn:wc:ra_dav:version-url
+V 408
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/Conditional.cs
+END
+IsNull.cs
+K 25
+svn:wc:ra_dav:version-url
+V 403
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IsNull.cs
+END
+BaseTag.cs
+K 25
+svn:wc:ra_dav:version-url
+V 404
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/BaseTag.cs
+END
+IDynamicParent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 411
+/svn/newsdd/!svn/ver/43762/05.%E9%A1%B9%E7%9B%AE%E5%BB%BA%E8%AE%BE/%E6%9F%B3%E9%92%A2%E9%98%B2%E5%9F%8E%E6%B8%AF%E5%9F%BA%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%AE%A1%E9%87%8F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/02.%E5%BC%80%E5%8F%91%E5%BA%93/04.%E6%BA%90%E4%BB%A3%E7%A0%81/02.%E6%AD%A3%E5%BC%8F%E4%BB%A3%E7%A0%81/%E5%9D%90%E5%B8%AD/LTN.CS_Oracle/IBatisNet.DataMapper/Configuration/Sql/Dynamic/Elements/IDynamicParent.cs
+END

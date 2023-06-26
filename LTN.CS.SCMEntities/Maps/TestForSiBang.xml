@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="TestForSiBang" xmlns="http://ibatis.apache.org/mapping"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <resultMaps>
+    <resultMap id="SelectTestInfoAllResult" class="TestForSiBang">
+      <result property="c_id" column="c_id" />
+      <result property="c_name" column="c_name"/>
+      <result property="c_truckmeasureplanno" column="c_truckmeasureplanno"/>
+      <result property="c_suppliespondsite" column="c_suppliespondsite"/>
+      <result property="c_suppliesformation" column="c_suppliesformation"/>
+      <result property="c_ironpondsite" column="c_ironpondsite"/>
+      <result property="c_ironformation" column="c_ironformation"/>
+      <result property="c_cartareno" column="c_cartareno"/>
+      <result property="c_truckcarname" column="c_truckcarname"/>
+      <result property="c_truckmeasureplanid" column="c_truckmeasureplanid"/>
+      <result property="c_carnameforimg" column="c_carnameforimg"/>
+      <result property="c_iscomplecated" column="c_iscomplecated"/>
+      <result property="c_carnameforimg2" column="c_carnameforimg2"/>
+      <result property="c_reserve1" column="c_reserve1"/>
+    </resultMap>
+  </resultMaps>
+  <statements>
+    <select id="selectTestInfoAll"  resultMap="SelectTestInfoAllResult">
+      select
+      a.c_id
+      ,a.c_name
+      ,a.c_truckmeasureplanno
+      ,a.c_suppliespondsite
+      ,a.c_suppliesformation
+      ,a.c_ironpondsite
+      ,a.c_ironformation
+      ,a.c_cartareno
+      ,a.c_truckcarname
+      ,a.c_truckmeasureplanid
+      ,a.c_carnameforimg
+      ,a.c_iscomplecated
+      ,a.c_carnameforimg2
+      ,a.c_reserve1
+      from TESTFORSIBANG a
+      order by a.c_id asc
+    </select>
+
+
+    <select id="selectTestInfoByName"  resultMap="SelectTestInfoAllResult" parameterClass="string">
+      select
+      a.c_id
+      ,a.c_name
+      ,a.c_truckmeasureplanno
+      ,a.c_suppliespondsite
+      ,a.c_suppliesformation
+      ,a.c_ironpondsite
+      ,a.c_ironformation
+      ,a.c_cartareno
+      ,a.c_truckcarname
+      ,a.c_truckmeasureplanid
+      ,a.c_carnameforimg
+      ,a.c_iscomplecated
+      ,a.c_carnameforimg2
+      ,a.c_reserve1
+      from TESTFORSIBANG a
+      where a.c_name = #value# and c_reserve1 = 0
+      order by a.c_id asc
+    </select>
+    
+    
+  </statements>
+  
+</sqlMap>

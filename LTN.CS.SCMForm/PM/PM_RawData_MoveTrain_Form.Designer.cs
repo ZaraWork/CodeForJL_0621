@@ -118,6 +118,10 @@
             this.gridColumn29 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn30 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn31 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn32 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn33 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn34 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn35 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.dxErrorProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
@@ -922,7 +926,11 @@
             this.gridColumn28,
             this.gridColumn29,
             this.gridColumn30,
-            this.gridColumn31});
+            this.gridColumn31,
+            this.gridColumn32,
+            this.gridColumn33,
+            this.gridColumn34,
+            this.gridColumn35});
             this.gvw_main.GridControl = this.gcl_main;
             this.gvw_main.IndicatorWidth = 40;
             this.gvw_main.Name = "gvw_main";
@@ -931,8 +939,10 @@
             this.gvw_main.OptionsView.ShowFooter = true;
             this.gvw_main.OptionsView.ShowGroupPanel = false;
             this.gvw_main.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gvw_main_CustomDrawRowIndicator);
+            this.gvw_main.CustomDrawCell += new DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventHandler(this.gvw_main_CustomDrawCell);
             this.gvw_main.RowCellStyle += new DevExpress.XtraGrid.Views.Grid.RowCellStyleEventHandler(this.gvw_main_RowCellStyle);
             this.gvw_main.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gvw_main_FocusedRowChanged);
+            this.gvw_main.CustomColumnDisplayText += new DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventHandler(this.gvw_main_CustomColumnDisplayText);
             // 
             // gridColumn1
             // 
@@ -966,7 +976,6 @@
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 1;
-            this.gridColumn3.Width = 85;
             // 
             // gridColumn4
             // 
@@ -1037,7 +1046,7 @@
             this.gridColumn8.FieldName = "WeightTime";
             this.gridColumn8.Name = "gridColumn8";
             this.gridColumn8.Visible = true;
-            this.gridColumn8.VisibleIndex = 6;
+            this.gridColumn8.VisibleIndex = 23;
             this.gridColumn8.Width = 176;
             // 
             // gridColumn9
@@ -1051,7 +1060,7 @@
             this.gridColumn9.MaxWidth = 85;
             this.gridColumn9.Name = "gridColumn9";
             this.gridColumn9.Visible = true;
-            this.gridColumn9.VisibleIndex = 7;
+            this.gridColumn9.VisibleIndex = 6;
             this.gridColumn9.Width = 85;
             // 
             // gridColumn10
@@ -1064,7 +1073,7 @@
             this.gridColumn10.FieldName = "DataFlag.RawDataStatusDesc";
             this.gridColumn10.Name = "gridColumn10";
             this.gridColumn10.Visible = true;
-            this.gridColumn10.VisibleIndex = 19;
+            this.gridColumn10.VisibleIndex = 22;
             this.gridColumn10.Width = 80;
             // 
             // gridColumn11
@@ -1077,7 +1086,7 @@
             this.gridColumn11.FieldName = "CreateUser";
             this.gridColumn11.Name = "gridColumn11";
             this.gridColumn11.Visible = true;
-            this.gridColumn11.VisibleIndex = 20;
+            this.gridColumn11.VisibleIndex = 24;
             this.gridColumn11.Width = 60;
             // 
             // gridColumn12
@@ -1092,7 +1101,7 @@
             this.gridColumn12.FieldName = "CreateTime";
             this.gridColumn12.Name = "gridColumn12";
             this.gridColumn12.Visible = true;
-            this.gridColumn12.VisibleIndex = 21;
+            this.gridColumn12.VisibleIndex = 25;
             this.gridColumn12.Width = 175;
             // 
             // gridColumn13
@@ -1105,7 +1114,7 @@
             this.gridColumn13.FieldName = "UpdateUser";
             this.gridColumn13.Name = "gridColumn13";
             this.gridColumn13.Visible = true;
-            this.gridColumn13.VisibleIndex = 22;
+            this.gridColumn13.VisibleIndex = 26;
             this.gridColumn13.Width = 80;
             // 
             // gridColumn14
@@ -1120,7 +1129,7 @@
             this.gridColumn14.FieldName = "UpdateTime";
             this.gridColumn14.Name = "gridColumn14";
             this.gridColumn14.Visible = true;
-            this.gridColumn14.VisibleIndex = 23;
+            this.gridColumn14.VisibleIndex = 27;
             this.gridColumn14.Width = 123;
             // 
             // gridColumn21
@@ -1133,7 +1142,8 @@
             this.gridColumn21.FieldName = "Reserve1";
             this.gridColumn21.Name = "gridColumn21";
             this.gridColumn21.Visible = true;
-            this.gridColumn21.VisibleIndex = 8;
+            this.gridColumn21.VisibleIndex = 7;
+            this.gridColumn21.Width = 65;
             // 
             // gridColumn22
             // 
@@ -1145,7 +1155,8 @@
             this.gridColumn22.FieldName = "Reserve2";
             this.gridColumn22.Name = "gridColumn22";
             this.gridColumn22.Visible = true;
-            this.gridColumn22.VisibleIndex = 9;
+            this.gridColumn22.VisibleIndex = 8;
+            this.gridColumn22.Width = 65;
             // 
             // gridColumn24
             // 
@@ -1153,7 +1164,8 @@
             this.gridColumn24.FieldName = "Reserve3";
             this.gridColumn24.Name = "gridColumn24";
             this.gridColumn24.Visible = true;
-            this.gridColumn24.VisibleIndex = 10;
+            this.gridColumn24.VisibleIndex = 9;
+            this.gridColumn24.Width = 65;
             // 
             // gridColumn25
             // 
@@ -1161,7 +1173,8 @@
             this.gridColumn25.FieldName = "Reserve4";
             this.gridColumn25.Name = "gridColumn25";
             this.gridColumn25.Visible = true;
-            this.gridColumn25.VisibleIndex = 11;
+            this.gridColumn25.VisibleIndex = 10;
+            this.gridColumn25.Width = 65;
             // 
             // gridColumn23
             // 
@@ -1171,8 +1184,7 @@
             this.gridColumn23.FieldName = "PZ";
             this.gridColumn23.Name = "gridColumn23";
             this.gridColumn23.Visible = true;
-            this.gridColumn23.VisibleIndex = 12;
-            this.gridColumn23.Width = 85;
+            this.gridColumn23.VisibleIndex = 11;
             // 
             // gridColumn26
             // 
@@ -1183,7 +1195,6 @@
             this.gridColumn26.Name = "gridColumn26";
             this.gridColumn26.Visible = true;
             this.gridColumn26.VisibleIndex = 13;
-            this.gridColumn26.Width = 85;
             // 
             // gridColumn27
             // 
@@ -1191,7 +1202,8 @@
             this.gridColumn27.FieldName = "TareWeight";
             this.gridColumn27.Name = "gridColumn27";
             this.gridColumn27.Visible = true;
-            this.gridColumn27.VisibleIndex = 16;
+            this.gridColumn27.VisibleIndex = 17;
+            this.gridColumn27.Width = 70;
             // 
             // gridColumn28
             // 
@@ -1199,7 +1211,8 @@
             this.gridColumn28.FieldName = "NetWgt";
             this.gridColumn28.Name = "gridColumn28";
             this.gridColumn28.Visible = true;
-            this.gridColumn28.VisibleIndex = 17;
+            this.gridColumn28.VisibleIndex = 18;
+            this.gridColumn28.Width = 70;
             // 
             // gridColumn29
             // 
@@ -1207,15 +1220,17 @@
             this.gridColumn29.FieldName = "CarType";
             this.gridColumn29.Name = "gridColumn29";
             this.gridColumn29.Visible = true;
-            this.gridColumn29.VisibleIndex = 14;
+            this.gridColumn29.VisibleIndex = 15;
+            this.gridColumn29.Width = 70;
             // 
             // gridColumn30
             // 
-            this.gridColumn30.Caption = "超载";
+            this.gridColumn30.Caption = "标重偏差";
             this.gridColumn30.FieldName = "CZ";
             this.gridColumn30.Name = "gridColumn30";
             this.gridColumn30.Visible = true;
-            this.gridColumn30.VisibleIndex = 18;
+            this.gridColumn30.VisibleIndex = 20;
+            this.gridColumn30.Width = 65;
             // 
             // gridColumn31
             // 
@@ -1223,7 +1238,54 @@
             this.gridColumn31.FieldName = "StandardWeight";
             this.gridColumn31.Name = "gridColumn31";
             this.gridColumn31.Visible = true;
-            this.gridColumn31.VisibleIndex = 15;
+            this.gridColumn31.VisibleIndex = 16;
+            this.gridColumn31.Width = 65;
+            // 
+            // gridColumn32
+            // 
+            this.gridColumn32.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            this.gridColumn32.AppearanceCell.Options.UseFont = true;
+            this.gridColumn32.Caption = "载重状态";
+            this.gridColumn32.FieldName = "CZ_Status";
+            this.gridColumn32.Name = "gridColumn32";
+            this.gridColumn32.Visible = true;
+            this.gridColumn32.VisibleIndex = 21;
+            this.gridColumn32.Width = 70;
+            // 
+            // gridColumn33
+            // 
+            this.gridColumn33.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            this.gridColumn33.AppearanceCell.Options.UseFont = true;
+            this.gridColumn33.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn33.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn33.Caption = "偏载(前后)";
+            this.gridColumn33.FieldName = "PZ_Status_1";
+            this.gridColumn33.Name = "gridColumn33";
+            this.gridColumn33.Visible = true;
+            this.gridColumn33.VisibleIndex = 12;
+            this.gridColumn33.Width = 70;
+            // 
+            // gridColumn34
+            // 
+            this.gridColumn34.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            this.gridColumn34.AppearanceCell.Options.UseFont = true;
+            this.gridColumn34.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn34.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn34.Caption = "偏载(左右)";
+            this.gridColumn34.FieldName = "PZ_Status_2";
+            this.gridColumn34.Name = "gridColumn34";
+            this.gridColumn34.Visible = true;
+            this.gridColumn34.VisibleIndex = 14;
+            this.gridColumn34.Width = 70;
+            // 
+            // gridColumn35
+            // 
+            this.gridColumn35.Caption = "载重上限";
+            this.gridColumn35.FieldName = "ZZSX";
+            this.gridColumn35.Name = "gridColumn35";
+            this.gridColumn35.Visible = true;
+            this.gridColumn35.VisibleIndex = 19;
+            this.gridColumn35.Width = 70;
             // 
             // dxErrorProvider1
             // 
@@ -1388,5 +1450,9 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn29;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn30;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn31;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn32;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn33;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn34;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn35;
     }
 }

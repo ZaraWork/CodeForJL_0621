@@ -46,6 +46,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
       <result property="c_tank_weight" column="c_tank_weight"/>
       <result property="c_tank_netStandardWeight" column="c_tank_netStandardWeight"/>
       <result property="c_tank_lang" column="c_tank_lang"/>
+      <result property="c_reserve1" column="c_reserve1"/>
+      <result property="c_reserve2" column="c_reserve2"/>
+      <result property="c_reserve3" column="c_reserve3"/>
+      <result property="c_reserve4" column="c_reserve4"/>
+      
     </resultMap>
 
 
@@ -330,7 +335,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
       c_up_value,
       c_tank_weight,
       c_tank_netStandardWeight,
-      c_tank_lang
+      c_tank_lang,
+      c_reserve1,
+      c_reserve2,
+      c_reserve3,
+      c_reserve4
       from PM_MOVETAIN_CARTYPEINFO order by c_tank_netStandardWeight desc
 
 

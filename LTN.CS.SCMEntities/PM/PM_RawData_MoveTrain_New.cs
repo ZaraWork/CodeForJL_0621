@@ -27,11 +27,11 @@ namespace LTN.CS.SCMEntities.PM
         
         public string Reserve1 { get; set; }
         public string Reserve2 { get; set; }
-        public Decimal PZ { get; set; }
+        public Decimal PZ { get; set; }//前后偏载
         //新增字段--潘鹏
         public string Reserve3 { get; set; }
         public string Reserve4 { get; set; }
-        public Decimal PZ2 { get; set; }
+        public Decimal PZ2 { get; set; }//左右偏载
 
         public string CarType { get; set; }//车型
         public string TareWeight { get; set; }//皮重
@@ -40,5 +40,14 @@ namespace LTN.CS.SCMEntities.PM
         public string StandardWeight { get; set; }//标重
         public string StandardTareWeight { get; set; }//标皮
         public string CZ { get; set; }//超载
+        public string ZZSX { get; set; }//载重上限
+
+        public string CZ_Status { get; set; }//载重状态
+        public string PZ_Status_1 { get; set; }//前后偏载状态
+        public string PZ_Status_2 { get; set; }//左右偏载状态
+
+        
+
+
     }
 }

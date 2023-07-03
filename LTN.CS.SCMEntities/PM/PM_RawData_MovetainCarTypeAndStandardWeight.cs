@@ -15,9 +15,9 @@ namespace LTN.CS.SCMEntities.PM
         public string c_tank_weight { get; set; }
         public string c_tank_netStandardWeight { get; set; }
         public string c_tank_lang { get; set; }
-        public string c_reserve1 { get; set; }
-        public string c_reserve2 { get; set; }
-        public string c_reserve3 { get; set; }
+        public string c_reserve1 { get; set; }//载重上限
+        public string c_reserve2 { get; set; }//左右偏载上限
+        public string c_reserve3 { get; set; }//前后偏载上限
         public string c_reserve4 { get; set; }
 
     }

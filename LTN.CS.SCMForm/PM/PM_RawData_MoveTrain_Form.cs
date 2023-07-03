@@ -46,6 +46,7 @@ namespace LTN.CS.SCMForm.PM
         private PM_RawData_MoveTrain selectMainEntity { get; set; }
         //新增
         private PM_RawData_MoveTrain_New selectMainEntity_new { get; set; }
+        private List<string> fieldNameList = new List<string>() { "CZ_Status", "PZ_Status_1", "PZ_Status_2" };
         #endregion
 
         #region 构造函数
@@ -62,7 +63,7 @@ namespace LTN.CS.SCMForm.PM
             lue_WeightFlag.Properties.DataSource = WeightTypeObj.GetWeightTypeData();
             lue_SiteNo.Properties.DataSource = PondSiteService.ExecuteDB_QueryAll();
             lue_PondSite_ref.Properties.DataSource = PondSiteService.ExecuteDB_QueryAll();
-            dte_begin.Text = DateTime.Now.ToString("yyyy-MM-dd 00:00:00");
+            dte_begin.Text = DateTime.Now.AddHours(-6).ToString("yyyy-MM-dd 00:00:00");
             dte_end.Text = DateTime.Now.ToString("yyyy-MM-dd 23:59:59");
         }
         private Hashtable GetQueryCondition()
@@ -152,8 +153,27 @@ namespace LTN.CS.SCMForm.PM
                                     PM_RawData_MovetainCarTypeAndStandardWeight obj = arr.FirstOrDefault();
                                     r.StandardWeight = obj.c_tank_netStandardWeight;
                                     r.StandardTareWeight = obj.c_tank_weight;
-                                    if (!string.IsNullOrEmpty(r.NetWgt)) r.CZ = (Convert.ToDecimal(r.NetWgt) - Convert.ToDecimal(r.StandardWeight)).ToString();
+                                    r.ZZSX = obj.c_reserve1;
+                                    if (!string.IsNullOrEmpty(r.NetWgt))
+                                    {
+                                        Decimal d = Convert.ToDecimal(r.NetWgt) - Convert.ToDecimal(r.StandardWeight);
+                                        r.CZ = d.ToString();
+                                        if (d < 0)
+                                        {
+                                            r.CZ_Status = "欠载";
+                                        }
+                                        else
+                                        {
+                                            Decimal d2 = Convert.ToDecimal(r.NetWgt) - Convert.ToDecimal(obj.c_reserve1);
+                                            r.CZ_Status = d2 <= 0 ? "正常" : "超载";
+                                        }
+
+                                        r.PZ_Status_1 = Math.Abs(Convert.ToDecimal(r.PZ)) < Convert.ToDecimal(obj.c_reserve3) ? "正常":"前后偏载";//前后偏载状态
+                                        r.PZ_Status_2 = Math.Abs(Convert.ToDecimal(r.PZ2)) < Convert.ToDecimal(obj.c_reserve2) ? "正常":"左右偏载";//左右偏载状态
+
+                                    }
                                 }
+                                /*
                                 else
                                 {
                                     var arr2 = carTypeInfoList.Where(p => Convert.ToInt32(p.c_bottom_value) <= Convert.ToInt32(r.CarNo) && Convert.ToInt32(p.c_up_value) >= Convert.ToInt32(r.CarNo));
@@ -165,6 +185,7 @@ namespace LTN.CS.SCMForm.PM
                                         if (!string.IsNullOrEmpty(r.NetWgt)) r.CZ = (Convert.ToDecimal(r.NetWgt) - Convert.ToDecimal(r.StandardWeight)).ToString();
                                     }
                                 }
+                                */
                             }
 
                         });
@@ -659,6 +680,25 @@ namespace LTN.CS.SCMForm.PM
                 lue_DataFlag.EditValue = entity.DataFlag.IntValue;
                 lue_WeightFlag.EditValue = entity.WeightFlag.IntValue;
                 dte_WeightTime.Text = entity.WeightTime;
+            }
+        }
+        
+        private void gvw_main_CustomColumnDisplayText(object sender, DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventArgs e)
+        {
+          
+            
+        }
+
+        private void gvw_main_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
+        {
+            var item = gvw_main.GetRow(e.RowHandle) as PM_RawData_MoveTrain_New;
+            if (item == null) return;
+            if (!item.SiteNo.PoundSiteNo.Equals("402")) return;
+            //e.Appearance.BackColor = (!item.CZ_Status.Equals("正常") || !item.PZ_Status_1.Equals("正常") || !item.PZ_Status_2.Equals("正常")) ? Color.Red : Color.White;
+            if (fieldNameList.Contains(e.Column.FieldName) && e.CellValue != null)
+            {
+                e.Appearance.ForeColor = e.CellValue.Equals("正常") ? Color.Black : Color.Red;                
+                //e.Appearance.BackColor = e.CellValue.Equals("正常") ? Color.White : Color.Red;
             }
         }
     }

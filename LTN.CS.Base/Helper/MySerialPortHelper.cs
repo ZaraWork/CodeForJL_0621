@@ -264,11 +264,13 @@ namespace LTN.CS.Base.Helper
                     if (_serialPort != null && _serialPort.IsOpen)
                     {
                         int bufLength = _serialPort.BytesToRead;
-                        //Console.WriteLine("缓冲区字节长度" + bufLength);
+                        //Console.WriteLine("缓冲区字节长度" + bufLength);                        
+
                         if (bufLength > minLength)
                         {
                             _data = new byte[_serialPort.BytesToRead];
                             _serialPort.Read(_data, 0, _data.Length);
+
                         }
                     }
                     else

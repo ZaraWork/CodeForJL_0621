@@ -138,8 +138,7 @@ namespace LTN.CS.Base.MeterOperate.Implement
                 }
             }
             catch (Exception ex)
-            {
-                //余姚仪表不一样，故障时仍然会发信号，需要判断出来
+            {                
                 errMsg = ex.Message;                                
                 MeterStatus = (int)DeviceStatus.Disable;
                 /*
